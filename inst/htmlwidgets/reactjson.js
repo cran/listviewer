@@ -12,20 +12,25 @@ HTMLWidgets.widget({
 
       renderValue: function(x) {
 
+          // add scroll to widget container for better sizing behavior
+          el.style.overflow = "auto";
+
           ReactDOM.render(
             React.createElement(
-              Json,
+              reactJsonView.default,
               {
-                value: (typeof(x.data)==="string") ? JSON.parse(x.data) : x.data,
-                onChange: logChange
+                src: (typeof(x.data)==="string") ? JSON.parse(x.data) : x.data,
+                name: null,
+                onAdd: logChange,
+                onEdit: logChange,
+                onDelete: logChange
               }
             ),
-            document.body
+            el
           );
 
           function logChange( value ){
-            console.log( value );
-            if(typeof(Shiny) !== "undefined"){
+            if(typeof(Shiny) !== "undefined" && Shiny.onInputChange){
               Shiny.onInputChange(el.id + "_change", {value:value});
             }
           }
