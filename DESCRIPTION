@@ -1,8 +1,8 @@
 Package: listviewer
 Type: Package
 Title: 'htmlwidget' for Interactive Views of R Lists
-Version: 2.0.0
-Date: 2018-03-25
+Version: 2.1.0
+Date: 2018-10-06
 Authors@R: c(
     person("Jos", "de Jong", role = c("aut", "cph"), comment = "jsoneditor.js library in htmlwidgets/jsoneditor, http://github.com/josdejong/jsoneditor/" ),
     person("Mac"," Gainer", role = c("aut", "cph"), comment = "react-json-view library in htmlwidgets/react-json, https://github.com/mac-s-g/react-json-view"),
@@ -22,7 +22,7 @@ Suggests: jsonlite, miniUI, rstudioapi
 Enhances: reactR
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2018-03-26 02:46:17 UTC; kentr
+Packaged: 2018-10-07 02:31:52 UTC; kentr
 Author: Jos de Jong [aut, cph] (jsoneditor.js library in
     htmlwidgets/jsoneditor, http://github.com/josdejong/jsoneditor/),
   Mac Gainer [aut, cph] (react-json-view library in
@@ -30,4 +30,4 @@ Author: Jos de Jong [aut, cph] (jsoneditor.js library in
   Kent Russell [aut, cre] (R interface)
 Maintainer: Kent Russell <kent.russell@timelyportfolio.com>
 Repository: CRAN
-Date/Publication: 2018-03-26 03:30:17 UTC
+Date/Publication: 2018-10-07 04:30:02 UTC
