@@ -1,8 +1,8 @@
 Package: listviewer
 Type: Package
 Title: 'htmlwidget' for Interactive Views of R Lists
-Version: 3.0.0
-Date: 2019-11-02
+Version: 4.0.0
+Date: 2023-09-30
 Authors@R: c(
     person("Jos", "de Jong", role = c("aut", "cph"), comment = "jsoneditor.js library in htmlwidgets/jsoneditor, http://github.com/josdejong/jsoneditor/" ),
     person("Mac"," Gainer", role = c("aut", "cph"), comment = "react-json-view library in htmlwidgets/react-json, https://github.com/mac-s-g/react-json-view"),
@@ -14,15 +14,14 @@ Description: R lists, especially nested lists, can be very difficult to
     lists.  The function 'reactjson()' requires a package
     'reactR' that can be installed from CRAN or <https://github.com/timelyportfolio/reactR>.
 License: MIT + file LICENSE
-LazyData: TRUE
 URL: https://github.com/timelyportfolio/listviewer
 BugReports: https://github.com/timelyportfolio/listviewer/issues
 Imports: htmltools, htmlwidgets, shiny
 Suggests: jsonlite, miniUI, rstudioapi
 Enhances: reactR
-RoxygenNote: 6.1.1
+RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2019-11-02 18:05:18 UTC; kentr
+Packaged: 2023-09-30 19:00:08 UTC; kentr
 Author: Jos de Jong [aut, cph] (jsoneditor.js library in
     htmlwidgets/jsoneditor, http://github.com/josdejong/jsoneditor/),
   Mac Gainer [aut, cph] (react-json-view library in
@@ -30,4 +29,4 @@ Author: Jos de Jong [aut, cph] (jsoneditor.js library in
   Kent Russell [aut, cre] (R interface)
 Maintainer: Kent Russell <kent.russell@timelyportfolio.com>
 Repository: CRAN
-Date/Publication: 2019-11-02 18:20:02 UTC
+Date/Publication: 2023-09-30 19:30:06 UTC
